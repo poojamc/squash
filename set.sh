@@ -6,3 +6,4 @@ do
 sum=`expr $sum + $i`
 done
 echo "The sum is $sum"
+echo "hi"
