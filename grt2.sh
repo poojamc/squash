@@ -1,9 +1,7 @@
 #!/bin/bash
-echo "enter wo numbers to check greatest of two number"
-read n m
-if [ $n -gt $m ]; then
-echo "$n is greatest "
+if [ $1 -gt $2 ]; then
+echo "$1 is greatest "
 else
-echo "$m is gretest "
+echo "$2 is gretest "
 fi
 
