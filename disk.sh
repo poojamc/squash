@@ -5,3 +5,4 @@ if [ $size -gt 20 ]
 then
 echo $body | mail -s "Memory Reached 20% " mcpooja29114@gmail.com
 fi
+echo "disk usage check is done"
